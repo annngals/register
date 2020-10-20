@@ -1,0 +1,7 @@
+Input URL: http://filmytorrent.com/boeviki/12579-dzhungli-2017-torrent.html
+Your domain:  filmytorrent.com
+Your url is not blocked
+Index of your domain is blocked
+IPs in the list:  ['5.45.86.106']
+IP of your domain:  209.99.64.70
+Your IP is not blocked
