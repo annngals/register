@@ -32,7 +32,7 @@ else:
     print("Your url is not blocked")
 
 if host in array:
-    print ("Index of your domain is blocked")
+    print ("Your domain is blocked")
 else:
     print("Your domain is not blocked")
 
