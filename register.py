@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 20 12:42:47 2020
-
-@author: Anna Galsanova
-"""
-
 from urllib.parse import urlparse
 import socket 
 
@@ -40,12 +34,12 @@ ind = array.index(host)
 
 ip = array[ind+1].strip().split(',')
 
-print("IPs in the list: ", ip)
+print("IP in the list: ", ip)
 
 inip = socket.gethostbyname(host)
-print("IP of your domain: ", myip)
+print("IP of your domain: ", inip)
 
-if myip in array:
+if inip in array:
     eip = ip.index(inip)
     print("index of IP in array:", eip)
 else:
